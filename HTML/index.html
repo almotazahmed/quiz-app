@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../CSS/all.min.css" />
+    <link rel="stylesheet" href="../CSS/normalize.css" />
+    <link rel="stylesheet" href="../CSS/framework.css" />
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <title>Quiz Application</title>
+    <meta name="description" content="Quiz Application" />
+  </head>
+  <body>
+    <div class="container pt-20 pb-20">
+      <div id="quiz-box" class="border-ccc rad-10 bg-white p-20">
+        <div
+          id="timer-and-ques-num-box"
+          class="d-flex space-between align-center mb-20 fs-17"
+        >
+          <div id="ques-nums" class="fs-15">
+            <span id="curr-ques" class="fw-500">2</span> Of
+            <span id="num-of-ques" class="fw-500">3</span> Question
+          </div>
+          <div id="timer" class="btn-shape d-flex align-center center-flex">
+            <i
+              class="fa-solid fa-stopwatch mr-15 c-alt-blue fs-20"
+              id="stop-watch"
+            ></i>
+            <span id="timer-counter" class="fs-15"></span>
+          </div>
+        </div>
+        <hr class="mb-20" />
+        <div
+          id="upper-ques-counter"
+          class="d-flex center-flex w-full h-fit gap-5 mb-20"
+        ></div>
+        <div id="ques-title-box" class="d-flex space-between align-center">
+          <div id="ques-title" class="fs-15 mb-5">
+            How We Specify Document Type Of HTML5 Page?
+          </div>
+          <i class=""></i>
+        </div>
+        <div id="answers-box" class="d-flex space-between w-full fs-14 mb-20">
+          <label for="answer-1" class="w-full">
+            <input
+              type="radio"
+              name="answers"
+              id="answer-1"
+              value="&lt;DOCTYPE html&gt;"
+            />
+            <div class="radio-text border-ccc rad-6 p-15">
+              &lt;DOCTYPE html&gt;
+            </div>
+          </label>
+
+          <label for="answer-2" class="w-full">
+            <input
+              type="radio"
+              name="answers"
+              id="answer-2"
+              value="&lt;DOCTYPE html5&gt;"
+            />
+            <div class="radio-text border-ccc rad-6 p-15">
+              &lt;DOCTYPE html5&gt;
+            </div>
+          </label>
+
+          <label for="answer-3" class="w-full">
+            <input
+              type="radio"
+              name="answers"
+              id="answer-3"
+              value="&lt;!DOCTYPE html5&gt;"
+            />
+            <div class="radio-text border-ccc rad-6 p-15">
+              &lt;!DOCTYPE html5&gt;
+            </div>
+          </label>
+
+          <label for="answer-4" class="w-full">
+            <input
+              type="radio"
+              name="answers"
+              id="answer-4"
+              value="&lt;!DOCTYPE html&gt;"
+            />
+            <div class="radio-text border-ccc rad-6 p-15">
+              &lt;!DOCTYPE html&gt;
+            </div>
+          </label>
+        </div>
+        <div id="btn-box" class="d-flex w-full">
+          <button
+            id="prev-btn"
+            class="prev-btn btn-shape bg-blue b-none c-white fs-13"
+          >
+            Prev
+          </button>
+          <button id="next-btn" class="btn-shape bg-blue b-none c-white fs-13">
+            Next
+          </button>
+        </div>
+      </div>
+    </div>
+    <script src="../JS/script.js"></script>
+  </body>
+</html>

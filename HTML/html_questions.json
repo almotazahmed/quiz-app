@@ -1,0 +1,114 @@
+[
+  {
+    "title": "What Does the HTML <br> Element Do?",
+    "answer_1": "Create a bold text.",
+    "answer_2": "Create an italic text.",
+    "answer_3": "Add a breakline.",
+    "answer_4": "Create a horizontal line.",
+    "right_answer": "Add a breakline."
+  },
+  {
+    "title": "Does the <img> Element Have an href Attribute?",
+    "answer_1": "Yes",
+    "answer_2": "No, it's for anchor tags <a>.",
+    "answer_3": "All elements have this attribute.",
+    "answer_4": "Answer 1 and 3 are correct.",
+    "right_answer": "No, it's for anchor tags <a>."
+  },
+  {
+    "title": "How Can You Make Text Bold in HTML?",
+    "answer_1": "Putting it inside <b> tags.",
+    "answer_2": "Putting it inside <strong> tags.",
+    "answer_3": "Customizing it with the font-weight property in CSS.",
+    "answer_4": "All answers are correct.",
+    "right_answer": "All answers are correct."
+  },
+  {
+    "title": "What Is the Correct Hierarchy for Creating Parts of a Web Page?",
+    "answer_1": "<h2>, <p>, <h1>, <p>, <h3>, <p>, <img>",
+    "answer_2": "<h1>, <p>, <h3>, <p>, <h2>, <p>, <img>",
+    "answer_3": "<h2>, <p>, <h3>, <p>, <h1>, <p>, <img>",
+    "answer_4": "All solutions are wrong.",
+    "right_answer": "All solutions are wrong."
+  },
+  {
+    "title": "How Can You Include an External Page Inside an HTML Page?",
+    "answer_1": "By using 'include' in HTML.",
+    "answer_2": "By using 'load' in HTML.",
+    "answer_3": "By using the <iframe> tag.",
+    "answer_4": "All solutions are wrong.",
+    "right_answer": "By using the <iframe> tag."
+  },
+  {
+    "title": "Which of the Following HTML Tags Does Not Exist?",
+    "answer_1": "<object>",
+    "answer_2": "<basefont>",
+    "answer_3": "<abbr>",
+    "answer_4": "All tags exist in HTML.",
+    "right_answer": "All tags exist in HTML."
+  },
+  {
+    "title": "How Do You Specify the Document Type of an HTML5 Page?",
+    "answer_1": "<!DOCTYPE html>",
+    "answer_2": "<!DOCTYPE html5>",
+    "answer_3": "<!DOCTYPE html5>",
+    "answer_4": "<!DOCTYPE html>",
+    "right_answer": "<!DOCTYPE html>"
+  },
+  {
+    "title": "Which HTML5 Semantic Element Does Not Exist?",
+    "answer_1": "<article>",
+    "answer_2": "<section>",
+    "answer_3": "<blockquote>",
+    "answer_4": "<aside>",
+    "right_answer": "<blockquote>"
+  },
+  {
+    "title": "In HTML, Which Format Can Be Used to Add Attributes?",
+    "answer_1": "<div class='class-name'>",
+    "answer_2": "<div class=class-name>",
+    "answer_3": "<div class=\"class-name\">",
+    "answer_4": "All of the above are correct.",
+    "right_answer": "All of the above are correct."
+  },
+  {
+    "title": "What Is the Purpose of the HTML <meta> Tag?",
+    "answer_1": "To define a section of a web page.",
+    "answer_2": "To add a link to an external stylesheet.",
+    "answer_3": "To specify metadata about the document.",
+    "answer_4": "To create a clickable link.",
+    "right_answer": "To specify metadata about the document."
+  },
+  {
+    "title": "What Is the Role of the HTML <header> Element?",
+    "answer_1": "To mark a section of text as important.",
+    "answer_2": "To define a container for navigation links.",
+    "answer_3": "To create a top-level heading.",
+    "answer_4": "To enclose the main content of a web page.",
+    "right_answer": "To define a container for navigation links."
+  },
+  {
+    "title": "How Can You Create an Unordered List in HTML?",
+    "answer_1": "<ul>...</ul>",
+    "answer_2": "<ol>...</ol>",
+    "answer_3": "<dl>...</dl>",
+    "answer_4": "<li>...</li>",
+    "right_answer": "<ul>...</ul>"
+  },
+  {
+    "title": "Which HTML Element Is Used to Create a Hyperlink?",
+    "answer_1": "<url>",
+    "answer_2": "<link>",
+    "answer_3": "<a>",
+    "answer_4": "<hyperlink>",
+    "right_answer": "<a>"
+  },
+  {
+    "title": "What Is the Purpose of the HTML <footer> Element?",
+    "answer_1": "To define a section of text as important.",
+    "answer_2": "To specify metadata about the document.",
+    "answer_3": "To create a bottom-level heading.",
+    "answer_4": "To enclose the main content of a web page.",
+    "right_answer": "To create a bottom-level heading."
+  }
+]
