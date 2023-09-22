@@ -46,10 +46,21 @@ body {
 }
 
 #quiz-box {
-  width: 60%;
+  width: 50%;
   margin: 0 auto;
   min-width: 300px;
 }
+@media (max-width: 991px) {
+  #quiz-box {
+    width: 80%;
+  }
+}
+@media (max-width: 767px) {
+  #quiz-box {
+    width: 100%;
+  }
+}
+
 #ques-title-box i {
   font-size: 25px;
 }
@@ -112,7 +123,9 @@ body {
   border: 1px solid #ccc;
   background-color: white;
   text-align: center;
+  max-width: 90%;
 }
+
 .result-popup .result-sec {
   display: flex;
   justify-content: flex-start;

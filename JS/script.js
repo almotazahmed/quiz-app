@@ -194,7 +194,6 @@ function popup(rate) {
   document.body.appendChild(popupDiv);
 }
 function revisionShow() {
-  console.log(rightAnswersArr);
   let currRevQues = 1;
   revisionShowQues(mainData[currRevQues - 1], currRevQues);
   nextBtn.addEventListener("click", () => {
