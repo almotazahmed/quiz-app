@@ -19,7 +19,7 @@ let dataLength;
 let rightAnswers = 0;
 let rightAnswersArr = new Map();
 let currentQues = 1;
-const time = 20;
+const time = 190;
 let countdownInterval;
 let clickListener;
 
