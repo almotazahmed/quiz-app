@@ -1,3 +1,4 @@
+/* Define custom color variables */
 :root {
   --blue-color: #0075ff;
   --blue-alt-color: #0d69d5;
@@ -6,20 +7,25 @@
   --red-color: #f44336;
   --grey-color: #777;
 }
+
+/* Apply box-sizing to all elements for consistent sizing */
 * {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
 }
 
+/* Enable smooth scrolling behavior for anchor links */
 html {
   scroll-behavior: smooth;
 }
 
+/* Define the default font family for the entire page */
 body {
   font-family: "Open Sans", sans-serif;
 }
 
+/* Create a responsive container for page content */
 .container {
   padding-left: 15px;
   padding-right: 15px;
@@ -27,6 +33,7 @@ body {
   margin-right: auto;
 }
 
+/* Adjust container width based on screen size */
 @media (min-width: 768px) {
   .container {
     width: 750px;
@@ -45,44 +52,54 @@ body {
   }
 }
 
+/* Style the quiz box with responsive width */
 #quiz-box {
   width: 50%;
   margin: 0 auto;
   min-width: 300px;
 }
+
 @media (max-width: 991px) {
   #quiz-box {
     width: 80%;
   }
 }
+
 @media (max-width: 767px) {
   #quiz-box {
     width: 100%;
   }
 }
 
+/* Style the question title and icons */
 #ques-title-box i {
   font-size: 25px;
 }
+
 #ques-title {
   font-weight: 600;
 }
 
+/* Style the answers box and radio buttons */
 #answers-box {
   flex-direction: column;
 }
+
 #answers-box input[type="radio"] {
   -webkit-appearance: none;
   appearance: none;
 }
+
 #answers-box .radio-text {
   cursor: pointer;
 }
+
 #answers-box input[type="radio"]:checked + .radio-text {
   background-color: #0075ff42;
   border: 1px solid var(--blue-color);
 }
 
+/* Style the timer with animation */
 #timer {
   background-color: rgba(46, 140, 255, 0.22);
   border-radius: 20px;
@@ -90,13 +107,16 @@ body {
   justify-content: space-between;
   width: 100px;
 }
+
 #timer #stop-watch {
   animation: hug 1s ease infinite;
 }
 
+/* Style the buttons section */
 #btn-box {
   justify-content: flex-end;
 }
+
 #btn-box .prev-btn {
   display: none;
 }
@@ -106,10 +126,13 @@ body {
   cursor: pointer;
 }
 
+/* Style the finished state for elements */
 .finished {
   pointer-events: none;
   opacity: 0.7;
 }
+
+/* Style the result popup */
 .result-popup {
   position: fixed;
   padding: 20px;
@@ -133,29 +156,37 @@ body {
   margin-bottom: 40px;
   align-items: center;
 }
+
 .result-popup .result-sec .result-sec-span {
   font-size: 20px;
   font-weight: 600;
 }
+
 .result-popup .result-sec .result-score {
   font-size: 17px;
   font-weight: 600;
   padding: 6px 12px;
   border-radius: 4px;
 }
+
+/* Style the result score with different background colors */
 .result-popup .result-sec .result-score.bad {
   background-color: #ff000038;
   border: 1px solid #ff00008c;
 }
+
 .result-popup .result-sec .result-score.good {
   background-color: #1dc65738;
   border: 1px solid #1dc6578c;
 }
+
+/* Style the buttons in the result popup */
 .result-popup .popup-btn-sec {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
+
 .result-popup .popup-btn-sec button {
   width: 130px;
   padding: 7px 0;
@@ -167,6 +198,7 @@ body {
   cursor: pointer;
 }
 
+/* Define animation keyframes */
 @keyframes hug {
   0%,
   100% {
